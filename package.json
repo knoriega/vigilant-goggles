@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/excaliburjs/template-ts-vite.git"
+    "url": "git+https://github.com/knoriega/vigilant-goggles.git"
   },
   "keywords": [
     "excalibur",
@@ -19,12 +19,12 @@
     "vite",
     "game-engine"
   ],
-  "author": "Erik Onarheim",
+  "author": "Nigel Noriega",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/excaliburjs/template-ts-vite/issues"
+    "url": "https://github.com/knoriega/vigilant-goggles.git/issues"
   },
-  "homepage": "https://github.com/excaliburjs/template-ts-vite#readme",
+  "homepage": "https://github.com/knoriega/vigilant-goggles.git#readme",
   "devDependencies": {
     "excalibur": "0.27.0",
     "typescript": "4.9.5",

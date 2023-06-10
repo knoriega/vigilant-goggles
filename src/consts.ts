@@ -1,0 +1,5 @@
+const MOVEMENT_SPEED = 100
+
+export {
+  MOVEMENT_SPEED
+}
