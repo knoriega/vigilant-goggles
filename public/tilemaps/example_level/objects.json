@@ -1,0 +1,30 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"objects",
+ "spacing":0,
+ "tilecount":2,
+ "tiledversion":"1.10.1",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":0,
+         "image": "public/assets/candleA_01.png",
+         "imageheight":14,
+         "imagewidth":7
+        }, 
+        {
+         "id":1,
+         "image": "public/assets/torch_1.png",
+         "imageheight":16,
+         "imagewidth":16
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -8,7 +8,7 @@ class Game extends Engine {
       width: 800,
       height: 600,
       fixedUpdateFps: 60,
-      antialiasing: false
+      antialiasing: false,
     });
   }
   initialize() {
@@ -16,9 +16,12 @@ class Game extends Engine {
     const player = new Player();
     this.add(player);
 
-    const loader = new Loader([Resources.Sword]);
+    const loader = new Loader([Resources.Sword, Resources.ExampleLevel]);
     loader.suppressPlayButton = true
-    this.start(loader);
+    this.start(loader).then(function() {
+      console.log("Game loaded")
+      Resources.ExampleLevel.addTiledMapToScene(game.currentScene)
+    })
   }
 }
 
